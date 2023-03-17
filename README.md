@@ -4,4 +4,4 @@ Wine price prediction, which predicts prices based on user input. Linear Regress
 This repository also contains a web application for wine price prediction built by using Streamlit which is python based library.
 
 # Dataset
-The machine learning model used in this application was trained on a dataset of wine reviews obtained from this Kaggle.com. The dataset contains information about wine type, variety, country, region, ratings and other characteristics, as well as the price of the wine.
+The machine learning model used in this application was trained on a dataset of wine reviews obtained from the website Kaggle.com. The dataset contains information about wine type, variety, country, region, ratings and other characteristics, as well as the price of the wine.
