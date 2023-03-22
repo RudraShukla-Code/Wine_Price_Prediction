@@ -5,3 +5,5 @@ This repository also contains a web application for wine price prediction built 
 
 # Dataset
 The machine learning model used in this application was trained on a dataset of wine reviews obtained from the website Kaggle.com. The dataset contains information about wine type, variety, country, region, ratings and other characteristics, as well as the price of the wine.
+
+![wine_price](https://user-images.githubusercontent.com/83577844/226945880-25d03c4c-7dd8-4c9c-9f00-fc8e15116be6.jpg)
