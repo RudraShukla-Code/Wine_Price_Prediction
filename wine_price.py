@@ -4,17 +4,7 @@ import pandas as pd
 import numpy as np
 import base64
 
-# open a file, where you stored the pickled data
-file = open('Wine_Price_Model.pkl', 'rb')
-
-# dump information to that file
-wine_predict = pickle.load(file)
-#wine_predict = pickle.load(open('Wine_Price_Model.pkl','rb'))
-wine_data = pd.read_csv('wine_file.csv')
-# close the file
-file.close()
-
-#wine_predict = pickle.load(open('Wine_Price_Model.pkl','rb'))
+wine_predict = pickle.load(open(' Wine_Price_Model.pkl','rb'))
 #wine_data = pd.read_csv('wine_file.csv')
 
 st.set_page_config(page_title="Wine Price Prediction App",layout="wide")
