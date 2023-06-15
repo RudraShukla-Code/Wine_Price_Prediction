@@ -11,7 +11,8 @@ file = open('Wine_Price_Model.pkl', 'rb')
 wine_predict = pickle.load(file)
 #wine_predict = pickle.load(open('Wine_Price_Model.pkl','rb'))
 wine_data = pd.read_csv('wine_file.csv')
-
+# close the file
+file.close()
 
 st.set_page_config(page_title="Wine Price Prediction App",layout="wide")
 
