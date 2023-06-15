@@ -5,7 +5,7 @@ import numpy as np
 import base64
 
 wine_predict = pickle.load(open('Wine_Price_Model.pkl','rb'))
-#wine_data = pd.read_csv('wine_file.csv')
+wine_data = pd.read_csv('wine_file.csv')
 
 st.set_page_config(page_title="Wine Price Prediction App",layout="wide")
 
